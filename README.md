@@ -1,4 +1,4 @@
-# IoT Job Starter
+# EdgeWatch IoT
 
 面向**学习**与**求职作品集**的物联网端到端演示：设备经 MQTT 上报遥测，后端订阅并持久化（可选），HTTP 查询最新与最近若干条。
 
@@ -97,7 +97,7 @@ curl -H "X-API-Key: change-me-in-production" `
 ## 项目结构
 
 ```text
-iot-job-starter
+edgewatch-iot
 ├── backend                 # FastAPI + MQTT 订阅
 │   ├── app
 │   │   ├── main.py

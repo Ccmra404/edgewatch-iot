@@ -49,7 +49,7 @@ async def lifespan(_app: FastAPI):
         logger.info("MQTT worker stopped")
 
 
-app = FastAPI(title="IoT Job Starter API", version="0.2.0", lifespan=lifespan)
+app = FastAPI(title="EdgeWatch IoT API", version="0.2.0", lifespan=lifespan)
 
 
 @app.get("/health")
